@@ -1,1 +1,76 @@
+.container {
+  padding-right: 60px;
+  padding-left: 60px;
+}
 
+nav {
+  height: 60px;
+  background-color: grey;
+  position: fixed;
+  width: 100%;
+}
+
+nav .icon-image {
+  height: 50px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 1px solid black;
+}
+
+nav ul {
+  display: inline-block;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav li::after {
+  content: "|";
+  margin-left: 5px;
+}
+
+nav a:hover {
+  color: black;
+}
+
+body {
+  background: url(https://raw.githubusercontent.com/benjaminEwhite/css_layout_exercises/master/images/outerspace_landscape.jpeg);
+    background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main {
+  padding-top: 90px;
+  min-width: 1000px;
+}
+
+.box {
+  width: 600px;
+  height: 300px;
+  margin-top: 150px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  border: 10px dotted green;
+}
+
+.spacecat, .spacedog {
+  position: absolute;
+  width: 200px;
+}
+
+.spacecat {
+  top: -90px;
+  left: -90px;
+}
+
+.spacedog {
+  bottom: -120px;
+  right: -60px;
+}
+
+ 
